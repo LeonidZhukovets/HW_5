@@ -1,0 +1,230 @@
+* {
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Slab", serif;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding-bottom: 50px;
+  background-color: azure;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  background: linear-gradient( rgba(236, 220, 220, 0.877), rgba(169, 221, 217, 0.836)), url("../img/bg.jpg") center/cover no-repeat;
+  background-attachment: fixed;
+}
+
+.header {
+  background: url("../img/renault-stepway_head.jpg") center/cover no-repeat;
+  max-width: 1000px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+.header__title {
+  width: 300px;
+  height: 110px;
+  background-color: rgba(237, 242, 243, 0.795);
+  margin-left: 20px;
+  text-align: center;
+}
+.header__title_text{
+	text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
+}
+
+hr {
+  max-width: 800px;
+  margin: 0 auto;
+  border: 2px solid rgb(255, 145, 0);
+}
+
+.design__title,
+.special__title,
+.techologies__title,
+.photos__title {
+  text-align: center;
+  text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
+}
+
+.design_article {
+  display: flex;
+  justify-content: center;
+  flex-flow: wrap;
+  max-width: 1200px;
+  height: 650;
+  margin: 0 auto;
+  column-gap: 10px;
+}
+
+.design_article__first {
+  width: 600px;
+  height: 450px;
+  background: url("../img/renault-logan-stepway2-design-1.jpg") center/cover
+    no-repeat;
+  margin-bottom: 10px;
+}
+.design_article__second {
+  width: 390px;
+  height: 450px;
+}
+.design_article__second_image {
+  max-width: 390px;
+  height: 225px;
+  background: url("../img/renault-logan-stepway2-design.jpg") center/cover
+    no-repeat;
+  margin-bottom: 10px;
+}
+
+.design_article__second_description {
+  max-width: 390px;
+  height: 205px;
+  width: fit-content;
+}
+
+.special_article {
+  display: flex;
+  justify-content: center;
+  flex-flow: wrap;
+  max-width: 1200px;
+  height: 650;
+  margin: 0 auto;
+  column-gap: 10px;
+}
+
+.special_article__first {
+  width: 600px;
+  height: 450px;
+  background: url("../img/renault-logan-stepway2-city.jpg") center/cover no-repeat;
+  margin-bottom: 10px;
+}
+
+.special_article__second {
+  max-width: 390px;
+  height: 450px;
+}
+
+.special_article__second_image {
+  max-width: 390px;
+  height: 225px;
+  background: url("../img/renault-logan-stepway2-city1.jpg") center/cover no-repeat;
+  margin-bottom: 10px;
+}
+
+.special_article__second_description {
+  width: 390px;
+}
+
+.techologies_article {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  column-gap: 10px;
+}
+
+.techologies_article_image {
+  width: 600px;
+  height: 300px;
+  background: url("../img/renault-logan-stepway-features.jpg") center/cover
+    no-repeat;
+  margin-bottom: 10px;
+}
+
+.techologies_article_description {
+  width: 390px;
+  /* width: fit-content; */
+}
+
+.image_start {
+  background: url("../img/renault-logan-stepway-features1.jpg") center/cover
+    no-repeat;
+}
+
+.photos {
+  width: auto;
+}
+
+.photos__container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  row-gap: 20px;
+}
+
+.photos__container_photo {
+  width: 360px;
+  height: 150px;
+}
+
+.photos__container_photo_element_1 {
+  background: url("../img/1.jpg") center/cover no-repeat;
+}
+
+.photos__container_photo_element_2 {
+  background: url("../img/2.jpg") center/cover no-repeat;
+}
+
+.photos__container_photo_element_3 {
+  background: url("../img/4.jpg") center/cover no-repeat;
+}
+
+.photos__container_photo_element_4 {
+  background: url("../img/3.jpg") center/cover no-repeat;
+}
+
+.photos__container_photo_element_5 {
+  background: url("../img/5.jpg") center/cover no-repeat;
+}
+
+.photos__container_photo_element_6 {
+  background: url("../img/6.jpg") center/cover no-repeat;
+}
+
+
+.form{
+	border: 4px solid rgb(255, 145, 0);
+	border-radius: 10px;
+	width: 600px;
+	padding: 25px;
+	margin: 0 auto;
+	box-shadow: 8px 8px 8px 0 rgb(129, 50, 4);
+	display: flex;
+	flex-direction: column;
+	row-gap: 5px;
+}
+
+.form__label{
+	font-size: 25px;
+}
+.form__input-name{
+	padding: 10px;
+}
+.form__input-name:focus{
+	outline: 3px ridge rgb(255, 145, 0);
+	border-radius: 3px;
+	border-color: transparent;
+}
+.form__input-submit {
+	font-size: 20px;
+	padding: 5px;
+	background-color: rgba(12, 250, 52, 0.452);
+	border: none;
+	box-shadow: 2px 2px 2px 0 rgb(139, 139, 139);
+}
+
+.form__input-reset {
+	font-size: 20px;
+	padding: 5px;
+	background-color: rgba(248, 53, 4, 0.452);
+	border: none;
+	box-shadow: 2px 2px 2px 0 rgb(139, 139, 139);
+}
+.form__input-submit:hover,
+.form__input-reset:hover {
+	opacity: .6;
+	cursor: pointer; 
+}
