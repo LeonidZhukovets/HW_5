@@ -9,19 +9,28 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 	<link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap" rel="stylesheet" />
 	<link rel="icon" href="./favicon/favicon.ico" type="image/x-icon" />
-	<link rel="stylesheet" href="./styles/style.css" />
+	<link rel="stylesheet" href="./styles/root.css">
+	<link rel="stylesheet" href="./styles/style.css">
+	<link rel="stylesheet" href="./styles/header.css">
 	<title>Renault Logan stepway</title>
 </head>
 
 <body>
-	<div class="container">
-		<div class="header">
+	<div class="container" id="container">
+		<div class="head-menu">
+			<img src="./img/renault-logo.svg" alt="logo">
+			<a href="#disign" class="head-menu__title">ДИЗАЙН</a>
+			<a href="#special" class="head-menu__title">СПЕЦИАЛЬНАЯ СЕРИЯ</a>
+			<a href="#techologies" class="head-menu__title">СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</a>
+			<a href="#photos" class="head-menu__title">ГАЛЕРЕЯ</a>
+		</div>
+		<div class="header" id="header">
 			<div class="header__title">
 				<h1 class="header__title_text">LOGAN STEPWAY</h1>
 				<span class="header__title_text">Моя свобода. Мой RENAULT</span>
 			</div>
 		</div>
-		<div class="design">
+		<div class="design" id="disign">
 			<h2 class="design__title">ДИЗАЙН</h2>
 			<div class="design_article">
 				<div class="design_article__first"></div>
@@ -40,7 +49,7 @@
 		<hr />
 		<br />
 
-		<div class="special">
+		<div class="special" id="special">
 			<h2 class="special__title">СПЕЦИАЛЬНАЯ СЕРИЯ</h2>
 			<div class="special_article">
 				<div class="special_article__first"></div>
@@ -60,7 +69,7 @@
 		<hr />
 		<br />
 
-		<div class="techologies">
+		<div class="techologies" id="techologies">
 			<h2 class="techologies__title">СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</h2>
 			<div class="techologies_article">
 				<div class="techologies_article_image"></div>
@@ -83,7 +92,7 @@
 		<br />
 		<hr />
 		<br />
-		<section class="photos">
+		<section class="photos" id="photos">
 			<h2 class="photos__title">ГАЛЕРЕЯ</h2>
 			<div class="photos__container">
 				<div class="photos__container_photo photos__container_photo_element_1"></div>
@@ -93,17 +102,21 @@
 				<div class="photos__container_photo photos__container_photo_element_5"></div>
 				<div class="photos__container_photo photos__container_photo_element_6"></div>
 			</div>
-			<br>
+			<br />
 			<form action="mailto:leonid.zhukovets@gmail.com" method="post" class="form" target="_blank">
 				<label for="input-name" id="1" class="form__label">Остались вопросы? Напишите нам!</label>
-				<textarea name="name" id="2" cols="20" rows="5" placeholder="Введите ваш вопрос" class="form__input-name"></textarea>
-				<!-- <input type="text" name="name" placeholder="Введите ваше имя" id="input-name" class="form__input-name"> -->
-				<input type="submit" value="Отправить" class="form__input-submit">
-				<input type="reset" value="Сбросить" class="form__input-reset">
+				<textarea name="name" id="2" cols="20" rows="5" placeholder="Введите ваш вопрос" class="form__input-name"
+					required></textarea>
+				<input type="submit" value="Отправить" class="form__input-submit" />
+				<input type="reset" value="Сбросить" class="form__input-reset" />
 			</form>
-			<br>
+			<br />
 		</section>
+		<div class="up_button">
+			<a href="#container" class="up_button__title"> В начало страницы</a>
+		</div>
 	</div>
+
 </body>
 
 </html>
