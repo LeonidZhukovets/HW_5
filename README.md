@@ -1,7 +1,7 @@
-# HW_5
+# HW_5-6-7
 
 ## The page was created on flex using the BEM methodology
-[Link to pade](https://leonidzhukovets.github.io/HW_5/)
+[Link to pade](https://leonidzhukovets.github.io/HW_5-6-7/)
 <br>
 ### Used properties CSS Flexbox:
 <li>display
